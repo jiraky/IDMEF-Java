@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IDMEF-Message xmlns="http://iana.org/idmef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://iana.org/idmef IDMEF-Schema.xsd">
+	<Alert messageid="1">
+		<Analyzer analyzerid="b-dpi">
+			<Node>
+				<name>b-dpi</name>
+			</Node>
+		</Analyzer>
+		<CreateTime ntpstamp="0x594a6a13.0x00000000">2017-06-21T14:44:03Z</CreateTime>
+		<Source>
+			<Node>
+				<Address category="ipv4-addr">
+					<address>10.10.1.2</address>
+				</Address>
+			</Node>
+		</Source>
+		<Target>
+			<Node>
+				<Address category="ipv4-addr">
+					<address>10.10.2.2</address>
+				</Address>
+			</Node>
+			<Service>
+				<name>zeus_cc_server</name>
+			</Service>
+		</Target>
+		<Classification text="zombie_detected"/>
+		<AdditionalData type="xml">
+		</AdditionalData>
+	</Alert>
+</IDMEF-Message>
