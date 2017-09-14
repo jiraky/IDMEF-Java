@@ -70,6 +70,11 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class Alert implements Serializable {
 
+    /**
+     * Generated Serial Version UID.
+     */
+    private static final long serialVersionUID = 1948467446031643476L;
+    
     @XmlElement(name = "Analyzer", required = true)
     protected Analyzer analyzer;
     @XmlElement(name = "CreateTime", required = true)
