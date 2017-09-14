@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>config.jardesc</name>
-			<type>1</type>
-			<location>C:/Users/matti/Development/lib/IDMEF/.settings/config.jardesc</location>
-		</link>
-	</linkedResources>
 </projectDescription>
